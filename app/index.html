@@ -1,24 +1,109 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
     <title>4 4 github profile</title>
     <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
+</head>
+
+<body>
 
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <a href="#"> <img src="images/octicons-5.0.1/lib/svg/mark-github.svg" alt=""></a>
-          <span>Pull requests</span>
-          <span>Issues</span>
-          <span>Gist</span>
+        <div class="row">
+            <div class="top-bar col-md-12">
+                <!--github cat icon -->
+                <a class="octicon-mark" href="#"> <img src="../app/images/octicons-5.0.1/lib/svg/mark-github.svg" alt=""></a>
+                <!--search bar-->
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                </form>
+                <!-- three options provided on profile-->
+                <span>Pull requests</span>
+                <span>Issues</span>
+                <span>Gist</span>
+
+                <div class="top-right-menu col-md-2">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                +
+                <span class="caret"></span>
+              </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="top-right-menu">
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                ME
+                <span class="caret"></span>
+              </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
-      </div>
     </div>
 
+
+
+
+
+
+    <div class="col-md-3">
+                <div class="row template-profile">
+                    <!-- Using this space to populate my page with profiles -->
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+    <div class="col-md-9">
+                <div class="row template-repo">
+                    <!-- Using this space to populate my page with Repos from github -->
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+    <script class="tile-template" type="text/x-handlebars-template">
+        <div class="col-sm-4 col-xs-6 col-md-3 product-tile">
+            <div class="image-size">
+                <!-- <img class="hbimage" src="{{ hbimage }}" alt="">
+                <div class="hbtitle">{{title}}</div>
+                <span class="shopName">{{shopName}}</span>
+                <span class="hbprice">{{price}}</span> -->
+            </div>
+        </div>
+    </script>
+
     <script src="js/bundle.js"></script>
-  </body>
+</body>
+
 </html>
