@@ -66,23 +66,38 @@
 
 
     <div class="col-md-3">
-                <div class="row template-profile">
-                    <!-- Using this space to populate my page with profiles -->
-                </div>
+        <div class="row profile-info">
+
+            <!-- Using this space to populate my page with profiles -->
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+          <form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+              </div>
+          </form>
+
+
+
+
+    <div class="container">
+        <div class="col-md-9">
+            <div class="row repo-info">
+
+
+                <!-- Using this space to populate my page with Repos from github -->
             </div>
-
-
-
-
-
-
-
-
-    <div class="col-md-9">
-                <div class="row template-repo">
-                    <!-- Using this space to populate my page with Repos from github -->
-                </div>
-            </div>
+        </div>
+    </div>
 
 
 
@@ -94,12 +109,37 @@
 
     <script class="tile-template" type="text/x-handlebars-template">
         <div class="col-sm-4 col-xs-6 col-md-3 product-tile">
-            <div class="image-size">
-                <!-- <img class="hbimage" src="{{ hbimage }}" alt="">
-                <div class="hbtitle">{{title}}</div>
-                <span class="shopName">{{shopName}}</span>
-                <span class="hbprice">{{price}}</span> -->
+            <div class="profile">
+
             </div>
+        </div>
+    </script>
+
+    <script id="profile-template" type="text/x-handlebars-template">
+        <div class=" product-tile">
+
+          <img src="{{avatar_url}}" alt="ryan barron">
+          <p>{{name}}</p>
+          <p>{{login}}</p>
+          <p>{{bio}}</p>
+          <hr>
+          <p>{{company}}</p>
+          <p>{{location}}</p>
+          <p>{{created_at}}</p>
+          <hr>
+          <p>Organizations</p>
+          <p><img src="{{organizations_url}}" alt=""></p>
+        </div>
+    </script>
+
+
+    <script id="repo-template" type="text/x-handlebars-template">
+        <div class=" repo-tile">
+          <a>{{name}}</a>
+          <p>{{language}}</p>
+          <span class="updated">{{updated_at}}</span>
+          <hr>
+
         </div>
     </script>
 
