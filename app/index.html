@@ -10,7 +10,7 @@
 
 <body>
 
-    <header>
+    <header class="header-bar">
         <div class="container">
             <div class="row">
                 <div class="top-bar col-md-12">
@@ -102,8 +102,17 @@
                     </form>
                     <div class="btn-group">
                         <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Action <span class="caret"></span>
-          </button>
+
+                          <div class="button-word-language">
+                            Type:
+                          </div>
+
+                          <div class="button-word-all">
+                            All
+                          </div>
+
+                           <span class="caret"></span>
+                        </button>
                         <ul class="dropdown-menu">
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Another action</a></li>
@@ -111,11 +120,19 @@
                             <li role="separator" class="divider"></li>
                             <li><a href="#">Separated link</a></li>
                         </ul>
-                    </div>
-                    <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Action <span class="caret"></span>
-          </button>
+                          </div>
+
+
+                          <div class="btn-group">
+                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <div class="button-word-language">
+                            Language:
+                          </div>
+                          <div class="button-word-all">
+                            All
+                          </div>
+                          <span class="caret"></span>
+                        </button>
                         <ul class="dropdown-menu">
                             <li><a href="#">Action</a></li>
                             <li><a href="#">Another action</a></li>
@@ -125,7 +142,8 @@
                         </ul>
                     </div>
                     <div class="btn-group" role="group" aria-label="...">
-                        <button type="button" class="btn btn-new btn-default">New</button>
+                        <button type="button" class="btn btn-new btn-default">
+                          <div class="button-word-new">New</div></button>
                     </div>
                     <hr>
                 </div>
@@ -142,14 +160,33 @@
     <!-- .container -->
 
 
-    <script class="tile-template" type="text/x-handlebars-template">
-        <div class="col-sm-4 col-xs-6 col-md-3 product-tile">
-            <div class="profile">
+    <hr>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+          <ul>
+            <a href="#"><li>Terms</li></a>
+          <a href="#"><li>Privacy</li></a>
+            <a href="#"><li>Privacy</li></a>
+            <a href="#"><li>Security</li></a>
+            <a href="#"><li>Status</li></a>
+            <a href="#"><li>Help</li></a>
+          </ul>
 
-            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+    <script class="tile-template" type="text/x-handlebars-template">
+        <div class="profile">
+
         </div>
     </script>
-
+    8
     <script id="profile-template" type="text/x-handlebars-template">
         <div class=" product-tile">
 
@@ -163,8 +200,8 @@
             </div>
 
             <div class="profile-bio">
-            <p>{{bio}}</p>
-          </div>
+                <p>{{bio}}</p>
+            </div>
             <hr>
             <p>{{company}}</p>
             <p>{{location}}</p>

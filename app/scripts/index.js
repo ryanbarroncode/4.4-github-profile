@@ -5,12 +5,13 @@ var githubtoken = require('./gitapikey.js');
 // var bootstrap = require('bootstrap-sass');
 var moment = require('moment')
 
-// send auth toeken to github if token is provided... which it is.
+// send auth token to github if token is provided... which it is.
 if (githubtoken !== undefined) {
     $.ajaxSetup({
         headers: {
             'Authorization': 'token ' + githubtoken.token
-        }
+        }            
+
     });
 }
 
