@@ -14,28 +14,126 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 
 img {
   max-width: 100%;
+  border-radius: 10px;
+}
+li{
+  padding: 20px 5px 0px 40px;
+  color: #776B6B;
+}
+
+.left-column{
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+.repo-HTML-color {
+  background-color: red;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.repo-CSS-color {
+  background-color: purple;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.repo-JavaScript-color {
+  background-color: yellow;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.gist{
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+.push-gist{
+  padding-right: 345px;
 }
 
 .top-bar{
   background-color: #F4F3F3;
+  display: flex;
+  align-items: center;
+}
+
+.profile-options li{
+  display: inline-block;
+  list-style: none;
 }
 
 .octicon-mark{
-  float: left;
-  padding-top: 15px;
-  padding-left: 300px;
 }
 
 .top-right-menu{
-  float: right;
+  width: 7%;
 }
+
 .dropdown-toggle{
   font-size: 22px;
 }
 
-.repo-tile{
+.btn-group > .btn:first-child {
+    margin-top: 10px;
+    height: 35px;
+}
+
+.btn-new{
+  margin-left: 25px;
+  width: 80px;
+  background-color: #72C54E;
+  font-size: 20px;
+}
+
+.repo-title{
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+.language{
+  padding-right: 70px;
+}
+
+.navbar-form .form-control{
+  display: inline-block;
+width: 360px;
+vertical-align: middle;
+}
+
+.search-repo{
+  padding-right: 140px;
 }
 
 .updated{
   display: inline-block;
+}
+
+.profile-name{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.profile-login{
+  color: #5F5B5B;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.proile-bio{
+  color: #5F5B5B;
 }
