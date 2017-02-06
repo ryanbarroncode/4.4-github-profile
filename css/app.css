@@ -5764,6 +5764,129 @@ button.close {
   box-sizing: border-box; }
 
 img {
-  max-width: 100%; }
+  max-width: 100%;
+  border-radius: 10px; }
+
+li {
+  padding: 20px 5px 0px 40px;
+  color: #776B6B;
+  display: inline-block; }
+
+.left-column {
+  padding-right: 50px;
+  padding-top: 20px; }
+
+.repo-HTML-color {
+  background-color: red;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%; }
+
+.repo-CSS-color {
+  background-color: purple;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%; }
+
+.repo-JavaScript-color {
+  background-color: yellow;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%; }
+
+.gist {
+  padding-top: 10px;
+  padding-right: 15px; }
+
+.push-gist {
+  padding-right: 345px; }
+
+.header-bar {
+  background-color: #F4F3F3; }
+
+.top-bar {
+  background-color: #F4F3F3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.profile-options li {
+  display: inline-block;
+  list-style: none; }
+
+.top-right-menu {
+  width: 7%; }
+
+#dropdownMenu1 {
+  font-size: 21px;
+  font-weight: bold; }
+
+.button-word-all {
+  display: inline-block;
+  font-weight: bold; }
+
+.button-word-language {
+  display: inline-block;
+  color: #818181; }
+
+.button-word-new {
+  position: relative;
+  bottom: 4px; }
+
+.btn-group > .btn:first-child {
+  margin-top: 10px;
+  height: 35px; }
+
+.btn-new {
+  font-size: 20px;
+  color: white;
+  margin-left: 25px;
+  width: 80px;
+  background-color: #72C54E;
+  background-image: -webkit-linear-gradient(#8FDC6E, #519D30);
+  background-image: linear-gradient(#8FDC6E, #519D30); }
+
+.repo-title {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 10px; }
+
+.language {
+  padding-right: 70px; }
+
+.navbar-form .form-control {
+  display: inline-block;
+  width: 360px;
+  vertical-align: middle; }
+
+.search-repo {
+  padding-right: 125px; }
+
+.updated {
+  display: inline-block; }
+
+.profile-name {
+  font-size: 20px;
+  font-weight: bolder; }
+
+.profile-login {
+  color: #5F5B5B;
+  font-size: 20px;
+  margin-top: -20px; }
+
+.proile-bio {
+  color: #5F5B5B; }
 
 /*# sourceMappingURL=app.css.map */

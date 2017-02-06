@@ -1,24 +1,234 @@
 <!doctype html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>4 4 github profile</title>
+    <title>4.4 github profile</title>
     <link rel="stylesheet" href="css/app.css">
-  </head>
-  <body>
+</head>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <a href="#"> <img src="images/octicons-5.0.1/lib/svg/mark-github.svg" alt=""></a>
-          <span>Pull requests</span>
-          <span>Issues</span>
-          <span>Gist</span>
+<body>
+
+    <header class="header-bar">
+        <div class="container">
+            <div class="row">
+                <div class="top-bar col-md-12">
+                    <!--github cat icon -->
+                    <a class="octicon-mark" href="#"> <img src="../app/images/octicons-5.0.1/lib/svg/mark-github.svg" alt=""></a>
+                    <!--search bar-->
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                    </form>
+                    <!-- three options provided on profile-->
+                    <div class="">
+                        <span class="gist">Pull requests</span>
+                        <span class="gist">Issues</span>
+                        <span class="gist push-gist">Gist</span>
+                    </div>
+
+                    <div class="top-right-menu col-md-2">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                +
+                <span class="caret"></span>
+              </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="top-right-menu">
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                ME
+                <span class="caret"></span>
+              </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- .container -->
+    </header>
+
+    <div class="container">
+        <div class="left-column row">
+            <div class="col-md-3 profile-info">
+
+                <!-- Using this space to populate my page with profiles -->
+            </div>
+
+            <div class="col-md-9">
+                <div class="">
+                    <div class="profile-options">
+                        <ul>
+                            <a href="#">
+                                <li>Overview</li>
+                            </a>
+                            <a href="#">
+                                <li>Repositores 15</li>
+                            </a>
+                            <a href="#">
+                                <li>Stars</li>
+                            </a>
+                            <a href="#">
+                                <li>Followers</li>
+                            </a>
+                            <a href="#">
+                                <li>Following</li>
+                            </a>
+                        </ul>
+
+                    </div>
+                    <hr>
+                    <form class="navbar-form navbar-left search-repo" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search repositories...">
+                        </div>
+                    </form>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+                          <div class="button-word-language">
+                            Type:
+                          </div>
+
+                          <div class="button-word-all">
+                            All
+                          </div>
+
+                           <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                          </div>
+
+
+                          <div class="btn-group">
+                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <div class="button-word-language">
+                            Language:
+                          </div>
+                          <div class="button-word-all">
+                            All
+                          </div>
+                          <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group" role="group" aria-label="...">
+                        <button type="button" class="btn btn-new btn-default">
+                          <div class="button-word-new">New</div></button>
+                    </div>
+                    <hr>
+                </div>
+
+                <div class="row repo-info">
+
+                    <!-- Using this space to populate my page with Repos from github -->
+                </div>
+            </div>
+            <!-- .col-md-9 -->
+        </div>
+
+    </div>
+    <!-- .container -->
+
+
+    <hr>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+          <ul>
+            <a href="#"><li>Terms</li></a>
+          <a href="#"><li>Privacy</li></a>
+            <a href="#"><li>Privacy</li></a>
+            <a href="#"><li>Security</li></a>
+            <a href="#"><li>Status</li></a>
+            <a href="#"><li>Help</li></a>
+          </ul>
+
+          </div>
         </div>
       </div>
-    </div>
+    </footer>
+
+
+
+    <script class="tile-template" type="text/x-handlebars-template">
+        <div class="profile">
+
+        </div>
+    </script>
+    8
+    <script id="profile-template" type="text/x-handlebars-template">
+        <div class=" product-tile">
+
+            <img src="{{avatar_url}}" alt="ryan barron">
+            <div class="profile-name">
+                <p>{{name}}</p>
+            </div>
+
+            <div class="profile-login">
+                <p>{{login}}</p>
+            </div>
+
+            <div class="profile-bio">
+                <p>{{bio}}</p>
+            </div>
+            <hr>
+            <p>{{company}}</p>
+            <p>{{location}}</p>
+            <p>{{created_at}}</p>
+            <hr>
+            <p>Organizations</p>
+            <p><img src="{{organizations_url}}" alt=""></p>
+        </div>
+    </script>
+
+
+    <script id="repo-template" type="text/x-handlebars-template">
+        <!-- <div class=" repo-tile"> -->
+        <a class="repo-title">{{name}}</a>
+        <br>
+        <span class="repo-{{language}}-color"></span>
+        <span class="language">{{language}}</span>
+        <span>Updated {{formatDate}} </span>
+        <hr>
+        <!-- </div> -->
+    </script>
+
+    <script id="org-template" type="text/x=handlebars-template">
+
+    </script>
 
     <script src="js/bundle.js"></script>
-  </body>
+</body>
+
 </html>
