@@ -1,7 +1,7 @@
 var $ = window.$ = window.jQuery = require('jquery');
 // var _ = require('underscore');
 var Handlebars = require('handlebars');
-var githubtoken = require('./gitapikey.js');
+var githubtoken //= require('./gitapikey.js');
 // var bootstrap = require('bootstrap-sass');
 var moment = require('moment')
 
@@ -10,7 +10,7 @@ if (githubtoken !== undefined) {
     $.ajaxSetup({
         headers: {
             'Authorization': 'token ' + githubtoken.token
-        }            
+        }
 
     });
 }
